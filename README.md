@@ -1,6 +1,4 @@
-# Medelse_ex
-
-## Exercice pour candidature
+# Medelse : Exercice pour candidature
 
 ### Architecture/Organisation
 
@@ -8,13 +6,13 @@
 
   - _page_Factures.jsx_ : la page communiquée pour l'exercice. Elle contient un mapping de factures sous forme de cartes
 
-- dossier **_compenents_** : contient les différents composants qui pourraient être réutilisables.
+- dossier **_components_** : contient les différents composants qui pourraient être réutilisables.
+
+  - _BillCard.jsx_ : une carte qui affiche les détails d'une facture. Recoit les infos d'une facture en props lors d'un mapping puis affiche une partie des infos et transmet certaines information en props à ces sous-composants (i.e PaiementStatus)
+
+  - _PaiementStatus.jsx_ : un composant qui affiche le status du paiment reçu en props. Pour l'exercice, il a un style différencié selon le status.
 
   - _ArrowButton.jsx_ : un bouton qui pourrait recevoir des props et avoir un comportement différencié
-
-  - _BillCard.jsx_ : une carte qui affiche les détails d'une facture. Recoit les infos d'une facture en props lors d'un maping puis affiche une partie des infos et transmet certaines information en props à ces sous-composants (i.e paiementStatus)
-
-  - _PaiementStatus.jsx_ : un bouton qui affiche le status du paiment reçu en props. Il a un style différencié selon le status.
 
 - dossier **_styles_** : contient les fichiers de styles css.
 
