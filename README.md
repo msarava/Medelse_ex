@@ -20,4 +20,7 @@
 
   - _BillCard.css_ : contient le style de la carte facture et de ses sous-composants. Pour l'exemple, le composant PaiementStatus peut avoir un style différencié selon le status du paiement (Done/Waiting)
 
-**_Commentaire_** : je n'ai pas comptabilisé la barre de navigation dans l'exercice mais elle vaudrait un composant Nav qui serait appelé dans une page layout par ex, qui appelerait la page facture par composition
+**_Commentaires_** : 
+- Je n'ai pas comptabilisé la barre de navigation dans l'exercice mais elle vaudrait un composant Nav qui serait appelé dans une page layout par ex, qui appelerait la page facture par composition
+
+- Je n'ai pas codé de test (pas très craft tout ça !) mais on peut imaginer un test sur l'affichage dans la page : si je passe un tableau avec un élément, je recupère une carte, si j'en passe trois, j'en récupère trois etc.
